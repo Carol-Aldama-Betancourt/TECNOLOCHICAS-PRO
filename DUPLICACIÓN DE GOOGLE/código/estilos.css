@@ -1,0 +1,157 @@
+body
+{
+     margin:0;
+     padding:0;
+     font-size:13px;
+     font-family:Arial,Helvetica,sans-serif;
+} 
+ a {
+     text-decoration:none;
+     cursor:pointer;
+}
+ header{
+      Width: 100%;
+      Height: 60px;
+}
+
+ header nav{
+     display:flex;
+     justify-content: flex-end;
+}
+
+ header nav .nav-right-section {
+     width:250px;
+     height:auto;
+     display: flex;
+     list-style: none;
+     justify-content:center;
+     align-items:center;
+}
+
+ nav .nav-right-section a{
+     margin-right:25px;
+     color:#000000;
+}
+
+ nav .nav-right-section .menu-icon{
+     background-image: url(‘https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png’);
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size: contain;
+     width:26px;
+     height:26px;
+}
+ nav .nav-right-section img{
+     border-radius: 50px;
+     margin-left: 10px;
+     width: 40px;
+     height:40px;
+} 
+ main {
+     margin-top:150px;
+     text-align:center;
+}
+ main .main-logo{
+     width:530px;
+     margin:  0 auto;
+     margin-bottom:35px;
+} 
+
+ main .main-logo img{
+     width:330px;
+     height:120px;
+}
+
+ main .main-input{
+     width:530px;
+     margin: 0 auto;
+     margin-bottom: 35px;
+}
+
+ main .main-input-container{
+     width:525px;
+     border-radius:100px;
+     border:1px solid #dfe1e5;
+     display: flex;
+     justify-content:center;
+     align-items:center;
+}
+ main .main-input input{
+     width: 450px;
+     height: 40px;
+     border:none;
+     outline:none;
+}
+ main.main-input-container:hover{
+    Box-shadow:0 1px 6px 0 #20212447;
+    Border-color:#dfe1e500;
+}
+ main .main-input .search-icon{
+     Background-image:
+     url(‘https://img.icons8.com/android/24/000000/search.png’);
+     background-repeat: no-repeat;
+     background-position:center;
+     background-size:contain;
+     width: 18px;
+     height: 18px;
+}
+ main  .main-input .micro-icon{
+     background-image:
+     url(‘https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png’);
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:contain;
+     Width: 18px;
+     Height:18px;
+     Cursor:pointer;
+} 
+ Main.main-buttons{
+        Width:530px;
+        Margin: 0 auto;
+}
+ Main .main-buttons div{
+        Display: inline-block;
+}
+ Main .main-buttons button{
+        Height:36px;
+        Background-color:#f2f2f2;
+        Border:0;
+        Font-size:14px;
+        Color:#5f6368;
+        Border-radius:8px;
+        Padding:  0 15px;
+        Margin-right: 15px;
+}
+ Main .main-buttons button:hover{
+        Border:1px solid #c6c6c6;
+        Box-shadow:0 1px 1px #000001;
+        Color:#222;
+}
+ Footer{
+        Width:100%;
+        Height:50px;
+        Position:absolute;
+        Bottom:0;
+        Display:grid;
+        Grid-template-columns:1fr 1fr;
+        Align-items: center;
+        Font-size:13px;
+        Background-color:#f2f2f2;
+        Border-top:1px solid #e4e4e4;
+}
+ Footer ul{
+        Margin:10px;
+        List-style:none;
+        Display: flex;
+        Padding-left:0;
+}
+ Footer .footer-left{
+        Justify-self: left;
+}
+ Footer .footer-right {
+        Justify-self: right;
+}
+ Footer ul li a {
+        Margin: 10px;
+        Color:#5f6368;
+}       
